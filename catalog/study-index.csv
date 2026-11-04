@@ -1,0 +1,5 @@
+study_id,title,collection,tonic,tempo_bpm,meter,ppq,bars,end_tick,combined_path,roles
+hh01,Paper Loop,pack-local equal-tempered pitch collection,D,88,4/4,480,32,61440,midi/hh01-paper-loop/hh01-paper-loop-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+hh02,Late Train,pack-local equal-tempered pitch collection,F,88,4/4,480,32,61440,midi/hh02-late-train/hh02-late-train-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+hh03,Corner Note,pack-local equal-tempered pitch collection,G#,88,4/4,480,32,61440,midi/hh03-corner-note/hh03-corner-note-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+hh04,Low Light,pack-local equal-tempered pitch collection,D#,88,4/4,480,32,61440,midi/hh04-low-light/hh04-low-light-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums

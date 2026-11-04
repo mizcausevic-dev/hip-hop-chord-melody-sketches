@@ -1,0 +1,15 @@
+{
+  "source_audio": "preview/hip-hop-chord-melody-sketches-simple-synth-preview.mp3",
+  "source_audio_sha256": "1c9000250d7527923ec7df0a0b84be1b19d9de12519076c2f968627af6131f15",
+  "excerpt_start_seconds": 0,
+  "excerpt_duration_seconds": 18,
+  "video": "film/preview.mp4",
+  "video_sha256": "3596e90655e3acd4eb4786aebdc998948a0a8451d6fd804be892ca54b690f170",
+  "duration_seconds": 18.0,
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "caption": "film/preview.vtt",
+  "poster": "film/poster.jpg",
+  "disclosure": "preview, not master",
+  "note": "A static illustrated poster and audio excerpt; no recording-session claim."
+}

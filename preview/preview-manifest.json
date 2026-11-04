@@ -1,0 +1,30 @@
+{
+  "label": "preview, not a master.",
+  "preview_path": "preview/hip-hop-chord-melody-sketches-simple-synth-preview.mp3",
+  "preview_sha256": "1c9000250d7527923ec7df0a0b84be1b19d9de12519076c2f968627af6131f15",
+  "source_midi_path": "midi/hh01-paper-loop/hh01-paper-loop-combined.mid",
+  "source_midi_sha256": "266257e295ca708b0d9c25f6a5dedd9931561677e3ed248c94a78d0e873e34d3",
+  "renderer": "release-simple-synth 1.0.0",
+  "renderer_configuration": {
+    "sample_rate": 44100,
+    "source_tracks": [
+      "chord_pulse",
+      "counter_texture",
+      "drums",
+      "principal_motif",
+      "sub_bass",
+      "vocal_like_synth"
+    ],
+    "processing": "Per-voice synthesis and envelopes; summed samples are clamped to +/-0.95, converted to 16-bit stereo PCM and encoded to 192 kb/s MP3."
+  },
+  "selection": {
+    "study": "hh01",
+    "start_seconds": 0,
+    "end_seconds": 87.273
+  },
+  "measurement": {
+    "sample_peak": 0.115499,
+    "not_lufs_or_true_peak": true
+  },
+  "limitations": "Automated generation and decode checks only. Nobody auditioned this simple-synthesis preview. It is not a finished-production sound or master."
+}
