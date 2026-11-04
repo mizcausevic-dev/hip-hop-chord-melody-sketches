@@ -1,0 +1,26 @@
+{
+  "title": "Hip-Hop Chord & Melody Sketches",
+  "study": "hh01",
+  "bpm": 88,
+  "source_audio": "preview/hip-hop-chord-melody-sketches-simple-synth-preview.mp3",
+  "source_audio_sha256": "1c9000250d7527923ec7df0a0b84be1b19d9de12519076c2f968627af6131f15",
+  "source_midi": "midi/hh01-paper-loop/hh01-paper-loop-combined.mid",
+  "source_midi_sha256": "266257e295ca708b0d9c25f6a5dedd9931561677e3ed248c94a78d0e873e34d3",
+  "source_events": "catalog/note-events.csv",
+  "source_events_sha256": "4c4d3c350839d2a478a5e6a206d703c3fe6b815150a73b22daf848a1fe11a537",
+  "art_source_file": "film/motion-artwork.jpg",
+  "art_source_sha256": "26c15d695b4094b2f1e2a59e21f32a58652af6544ba60542f87e62b8a69aabc3",
+  "excerpt_start_seconds": 0,
+  "duration_seconds": 18.0,
+  "video": "film/motion-preview.mp4",
+  "video_sha256": "a072c553efde4a46dc3f953e1ead589475e36ec95f7ffe8b981d27907a9cc243",
+  "caption": "film/motion-preview.vtt",
+  "resolution": "960x540",
+  "fps": 15,
+  "visualization": "Scrolling note events from the selected score over a moving cover image",
+  "disclosure": "preview, not master",
+  "limitations": [
+    "Simple-synth rendering, not a recorded performance.",
+    "No human listening review recorded."
+  ]
+}
