@@ -75,6 +75,20 @@ def main():
                             if kind == "sub_bass" and study_index and local // release.BAR_TICKS == study_index and local % release.BAR_TICKS == 0:
                                 continue
                             notes.append((local, min(event["duration"], END-local), event["pitch"], event["velocity"]))
+                if args.pack == "hip-hop-chord-melody-sketches" and kind == "chords":
+                    # Four-bar chord sketches use alternating voicings and
+                    # staggered entries, leaving space around a relaxed beat.
+                    entries = ((0, 1080), (120, 1200), (0, 960), (240, 1320))
+                    notes = []
+                    for bar in range(4):
+                        chord = sorted(study["chords"][(bar + variation) % 4])
+                        for _ in range((study_index + bar + variation) % len(chord)):
+                            chord = chord[1:] + [chord[0] + 12]
+                        offsets = entries[(bar + variation) % 4]
+                        for hit, offset in enumerate(offsets):
+                            duration = min(540 if hit == 0 else 420, release.BAR_TICKS - offset)
+                            for pitch in chord:
+                                notes.append((bar * release.BAR_TICKS + offset, duration, pitch, 68 + 5 * ((bar + hit + study_index) % 4)))
                 if not notes:
                     raise ValueError(f"Empty clip: {study['id']} {kind} {variation}")
                 label = "chord-progression" if kind == "chords" else ("bass-hook" if kind == "sub_bass" else "melody")
