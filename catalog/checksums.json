@@ -273,8 +273,8 @@
     },
     {
       "path": "downloads/hip-hop-chord-melody-sketches-midi.zip",
-      "bytes": 34533,
-      "sha256": "062b3cf939fcc554ab3ce86fa492b836588af7995de0d7fbc121ac3186163077"
+      "bytes": 35520,
+      "sha256": "921f530d33159d3d6fb09e36bf7d9a0816811eab2ec55acb5601b6027d68f5ac"
     },
     {
       "path": "film/motion-artwork.jpg",
@@ -323,8 +323,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 10961,
-      "sha256": "708a2efa2879fdf6f3ff63b8608e0852b3d0ec1d8dd6244aad555fc0dcc7471c"
+      "bytes": 11151,
+      "sha256": "bd82c2c605a719fe95e1dfda8d01d2a624fbd58e51d713f07e3ccd9a2ecef084"
     },
     {
       "path": "midi/hh01-paper-loop/chord_pulse.mid",
@@ -467,6 +467,11 @@
       "sha256": "51785ba8677dd3accafdcc2a4b9ec77bc0a242a702126a751fb85902906c93c8"
     },
     {
+      "path": "MIDI-BUYER-LICENSE-v1.0.txt",
+      "bytes": 1652,
+      "sha256": "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9"
+    },
+    {
       "path": "MOTION-PREVIEW.md",
       "bytes": 800,
       "sha256": "ea3750b281e911a595409031b096d8f3934036a01a283fe64acd9e9053f3901f"
@@ -483,8 +488,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4279,
-      "sha256": "8f531510189ae6b19992107a9e13a5e26e037b1b9ae152bc5bc3ce2096132c1f"
+      "bytes": 4394,
+      "sha256": "3f3190922e0e70b27f4f80ea16b6ac857690676df8f91b020d987246c001a4e3"
     },
     {
       "path": "REVISION.md",
